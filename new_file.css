@@ -1,0 +1,51 @@
+.messageBoard ul {
+  list-style: none;
+}
+.messageBoard ul li .headImg {
+  vertical-align: top;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  padding-top: 5px;
+  box-sizing: border-box;
+}
+.messageBoard ul li .headImg img {
+  max-width: 100%;
+}
+.messageBoard ul li .message_body {
+  display: inline-block;
+  width: 80%;
+  margin-left: 10px;
+}
+.messageBoard ul li .message_body .body_top .name {
+  font-size: 17px;
+  color: #7f7f7f;
+  display: inline-block;
+}
+.messageBoard ul li .message_body .body_top .like {
+  display: inline-block;
+  text-align: right;
+  float: right;
+}
+.messageBoard ul li .message_body .body_top .like img {
+  width: 12px;
+}
+.messageBoard ul li .message_body .body_content {
+  color: #626262;
+  word-wrap: break-word;
+}
+.messageBoard ul li .message_body .body_ft {
+  color: #bdc3d3;
+  font-size: 12px;
+}
+.messageBoard ul li .replyBox {
+  border-top: 1px solid #bdc3d3;
+}
+.messageBoard ul li .replyBox .reply_top .left {
+  color: #7f7f7f;
+}
+.messageBoard ul li .replyBox .reply_top .left .line {
+  width: 3px;
+  height: 10px;
+  background: #02bb00;
+}
